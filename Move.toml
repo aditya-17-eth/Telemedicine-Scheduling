@@ -1,0 +1,15 @@
+[package]
+name = "Telepsychiatry-Scheduling"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x352ff10507928b373d035690b89c69a8377ba83264b40495d618701938b6c11a"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
